@@ -30,7 +30,7 @@ namespace FirstWpfCalculcator
             HelpWindow helpwindow = new HelpWindow();
             helpwindow.ShowDialog();
         }
-
+         
         private bool ValidInputs(out string userFeedback)
         {
             bool validInputs = true;
